@@ -1,6 +1,6 @@
 # Ankr Token Swapper
 
-Lightweight Python utility for token swaps via Ankr RPC — interacts with DEX contracts directly.
+A lightweight Python utility that swaps tokens on Ethereum-compatible networks using the Uniswap V2 router via an Ankr RPC endpoint.
 
 ## Features
 - Token swap via Uniswap/PancakeSwap router
@@ -21,10 +21,16 @@ PRIVATE_KEY=your_wallet_private_key
 
 ## Usage
 ```bash
-python swap.py --from USDC --to ETH --amount 100
+python bot.py --from USDC --to ETH --amount 100
+```
+
+## Project Structure
+```
+README.md          # This documentation
+LICENSE            # MIT license
+bot.py             # Main script implementing swap logic
 ```
 
 ## License
 MIT
 <!-- updated: 2026-06-18 -->
-
